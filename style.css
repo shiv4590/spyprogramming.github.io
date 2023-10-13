@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&family=Oswald:wght@600&family=Poppins:ital,wght@1,100&family=Roboto:ital,wght@0,100;1,400;1,500&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Croissant One', serif;
+}
+
+.container{
+ width: 80%;
+margin: 100px auto 0;
+background: rgb(228, 188, 188);
+height: auto;
+border-radius: 2px solid black;
+text-align: center;
+}
+.search{
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    margin: 20px 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-radius: 30px;
+}
+.search button{
+    padding: 10px 15px;
+    background: crimson;
+   
+}
+.search button i{
+    height:18px;
+    width: 10px;
+    color: blue;
+    
+}
+.colums img{
+    height:50px;
+    width: 50px;
+    padding: 0 5px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.whether{
+    display: none;
+}
+.error{
+    display:none;
+}
+.content h1{
+    text-align: center;
+    color: brown;
+}
+.content p{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5rem;
+    color: rgb(204, 0, 255);
+}
+.error img{
+    height: 150px;
+    border-radius: 50%;
+}
